@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\MKFP\projekt\AD7691_VHDL\library.cfg"  -j "c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\projlib.cfg"  -d "c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\compile"   -work AD7691_VHDL  -O3 -e 100 -2002 "c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd"

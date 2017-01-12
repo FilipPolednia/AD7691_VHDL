@@ -1,0 +1,66 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=AD7691_VHDL
+[Library]
+AD7691_VHDL=.\AD7691_VHDL\AD7691_VHDL.lib
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=1
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=MV_XST146
+RUN_MODE_SYNTH=0
+IMPL_TOOL=MV_ISE146
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=IMPL_WITH_SYNTH
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=Xilinx14x SPARTAN6
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+AD7691_VHDL=.
+Active_lib=SPARTAN6
+xilinxun=SPARTAN6
+UnlinkedDesignLibrary=SPARTAN6
+DESIGNS=SPARTAN6
+[IMPLEMENTATION_XILINX14]
+impl_opt(dont_run_translate)=0
+impl_opt(dont_run_map)=0
+impl_opt(dont_run_place)=0
+impl_opt(dont_run_trace)=0
+impl_opt(dont_run_simulation)=0
+impl_opt(dont_run_fit)=0
+impl_opt(dont_run_bitgen)=1
+[IMPLEMENTATION]
+FLOW_STEPS_RESET=0
+UCF=
+[Files]
+/spi_interface.vhd=-1
+/clk_prescaler.vhd=-1
+[Files.Data]
+.\src\spi_interface.vhd=VHDL Source Code
+.\src\clk_prescaler.vhd=VHDL Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
