@@ -55,12 +55,17 @@ UCF=
 [Files]
 /spi_interface.vhd=-1
 /clk_prescaler.vhd=-1
+DESIGN_STATUS\2017_01_19_12_37/synthesis_synthesis.dfml=-1
 [Files.Data]
 .\src\spi_interface.vhd=VHDL Source Code
 .\src\clk_prescaler.vhd=VHDL Source Code
+.\src\DESIGN_STATUS\2017_01_19_12_37\synthesis_synthesis.dfml=Text File
 [SpecTracer]
 WindowVisible=0
 [HierarchyViewer]
 HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
+[Groups]
+DESIGN_STATUS=1
+DESIGN_STATUS\2017_01_19_12_37=1

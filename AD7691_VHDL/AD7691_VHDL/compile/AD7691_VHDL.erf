@@ -1,5 +1,5 @@
 WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
-MESSAGE "File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd" 
+MESSAGE "File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd" 
 MESSAGE "Compile Entity "spi_master"" 
 MESSAGE "Compile Architecture "logic" of Entity "spi_master"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]" 

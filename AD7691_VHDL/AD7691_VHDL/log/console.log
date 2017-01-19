@@ -1,316 +1,386 @@
-# Design: Design AD7691_VHDL already active.
-# 
-# Design: Warning: Library SPARTAN6 required for the selected device family has not been installed.
-# DESIGN: Default Design Language: VHDL
-# DESIGN: Default BDE Language: VHDL
-# DESIGN: C-Synthesis: Not Defined
-# DESIGN: HDL Synthesis: Xilinx ISE/WebPack 14.6/14.7 XST VHDL/Verilog
-# DESIGN: Physical Synthesis: Not Defined
-# DESIGN: Implementation: Xilinx ISE/WebPack 14.6/14.7
-acom -reorder -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
-# Compile with File Reorder...
+# Design Status: 'AD7691_VHDL' status has been successfully generated to 'C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\DESIGN_STATUS\2017_01_19_11_22\'.
+# Archive: Workspace 'AD7691_VHDL' has been successfully archived to C:\My_Designs\MKFP\projekt.
+acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
+# Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
 # Compile Entity "spi_master"
 # Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0018: spi_interface.vhd : (19, 1): Identifier expected.
-# Error: COMP96_0015: spi_interface.vhd : (19, 1): ')' expected.
-# Error: COMP96_0015: spi_interface.vhd : (19, 1): ';' expected.
-# Error: COMP96_0019: spi_interface.vhd : (19, 5): Keyword 'end' expected.
-# Error: COMP96_0019: spi_interface.vhd : (32, 19): Keyword 'then' expected.
-# Error: COMP96_0019: spi_interface.vhd : (33, 20): Keyword 'then' expected.
-# Error: COMP96_0019: spi_interface.vhd : (36, 3): Keyword 'end' expected.
-# Error: COMP96_0015: spi_interface.vhd : (39, 7): ';' expected.
-# Error: COMP96_0016: spi_interface.vhd : (39, 9): Design unit declaration expected.
-# Compile failure 9 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -reorder -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
-# Compile with File Reorder...
+# Error: COMP96_0020: spi_interface.vhd : (29, 2): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0019: spi_interface.vhd : (41, 4): Keyword 'end' expected.
+# Error: COMP96_0019: spi_interface.vhd : (56, 7): Keyword 'process' expected.
+# Error: COMP96_0015: spi_interface.vhd : (58, 6): ';' expected.
+# Error: COMP96_0016: spi_interface.vhd : (58, 13): Design unit declaration expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
+# Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
 # Compile Entity "spi_master"
 # Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0018: spi_interface.vhd : (19, 1): Identifier expected.
-# Error: COMP96_0015: spi_interface.vhd : (19, 1): ')' expected.
-# Error: COMP96_0015: spi_interface.vhd : (19, 1): ';' expected.
-# Error: COMP96_0019: spi_interface.vhd : (19, 5): Keyword 'end' expected.
-# Error: COMP96_0019: spi_interface.vhd : (33, 20): Keyword 'then' expected.
-# Error: COMP96_0019: spi_interface.vhd : (44, 5): Keyword 'if' expected.
-# Error: COMP96_0358: spi_interface.vhd : (44, 5): Statement is not labeled.
-# Error: COMP96_0019: spi_interface.vhd : (44, 10): Keyword 'end' expected.
-# Compile failure 8 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -reorder -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
-# Compile with File Reorder...
+# Error: COMP96_0019: spi_interface.vhd : (41, 4): Keyword 'end' expected.
+# Error: COMP96_0019: spi_interface.vhd : (56, 7): Keyword 'process' expected.
+# Error: COMP96_0015: spi_interface.vhd : (58, 6): ';' expected.
+# Error: COMP96_0016: spi_interface.vhd : (58, 13): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src
+# Analyzing...
+# C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src
+# C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/synthesis
+# Release 14.7 - xst P.20131013 (nt)
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+# --> Parameter TMPDIR set to .
+# Total REAL time to Xst completion: 0.00 secs
+# Total CPU time to Xst completion: 0.49 secs
+#  
+# Warning: --> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+# =========================================================================
+# *                          HDL Compilation                              *
+# =========================================================================
+# Compiling vhdl file "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/clk_prescaler.vhd" in Library AD7691_VHDL.
+# Entity <Prescaler> compiled.
+# Entity <Prescaler> (Architecture <Prescaler>) compiled.
+# Compiling vhdl file "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" in Library AD7691_VHDL.
+# Entity <spi_master> compiled.
+# Error: ERROR:HDLParsers:3313 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 26. Undefined symbol 'machite'.  Should it be: machine?
+# Error: ERROR:HDLParsers:1209 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 26. machite: Undefined symbol (last report in this block)
+# Error: ERROR:HDLParsers:3312 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 38. Undefined symbol 'state'.
+# Error: ERROR:HDLParsers:3313 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 39. Undefined symbol 'clock'.  Should it be: block?
+# Error: ERROR:HDLParsers:1209 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 39. clock: Undefined symbol (last report in this block)
+# Error: ERROR:HDLParsers:808 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 40. + can not have such operands in this context.
+# Error: ERROR:HDLParsers:164 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 41. parse error, unexpected WHEN, expecting END
+# Error: ERROR:HDLParsers:3313 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 44. Undefined symbol 'cpu_counter'.  Should it be: cpu_couter?
+# Error: ERROR:HDLParsers:1209 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 45. state: Undefined symbol (last report in this block)
+# Error: ERROR:HDLParsers:164 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 49. parse error, unexpected CASE, expecting PROCESS
+# Total REAL time to Xst completion: 1.00 secs
+# Total CPU time to Xst completion: 0.78 secs
+#  
+# --> 
+# Total memory usage is 181872 kilobytes
+# Number of errors   :   10 (   0 filtered)
+# Number of warnings :    1 (   0 filtered)
+# Number of infos    :    0 (   0 filtered)
+# Error: Analysis completed with errors
+# Error: Analysis: 10 errors, 1 warnings
+acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
+# Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
 # Compile Entity "spi_master"
 # Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0018: spi_interface.vhd : (19, 1): Identifier expected.
-# Error: COMP96_0015: spi_interface.vhd : (19, 1): ')' expected.
-# Error: COMP96_0015: spi_interface.vhd : (19, 1): ';' expected.
-# Error: COMP96_0019: spi_interface.vhd : (19, 5): Keyword 'end' expected.
-# Error: COMP96_0019: spi_interface.vhd : (44, 5): Keyword 'if' expected.
-# Error: COMP96_0358: spi_interface.vhd : (44, 5): Statement is not labeled.
-# Error: COMP96_0019: spi_interface.vhd : (44, 10): Keyword 'end' expected.
-# Compile failure 7 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -reorder -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
-# Compile with File Reorder...
+# Error: COMP96_0019: spi_interface.vhd : (41, 4): Keyword 'end' expected.
+# Error: COMP96_0019: spi_interface.vhd : (49, 8): Keyword 'process' expected.
+# Error: COMP96_0015: spi_interface.vhd : (58, 7): ';' expected.
+# Error: COMP96_0016: spi_interface.vhd : (58, 9): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
+# Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
 # Compile Entity "spi_master"
 # Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0018: spi_interface.vhd : (19, 1): Identifier expected.
-# Error: COMP96_0015: spi_interface.vhd : (19, 1): ')' expected.
-# Error: COMP96_0015: spi_interface.vhd : (19, 1): ';' expected.
-# Error: COMP96_0019: spi_interface.vhd : (19, 5): Keyword 'end' expected.
-# Error: COMP96_0019: spi_interface.vhd : (44, 5): Keyword 'if' expected.
-# Error: COMP96_0358: spi_interface.vhd : (44, 5): Statement is not labeled.
-# Error: COMP96_0019: spi_interface.vhd : (44, 10): Keyword 'end' expected.
-# Compile failure 7 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -reorder -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
-# Compile with File Reorder...
+# Error: COMP96_0078: spi_interface.vhd : (26, 17): Unknown identifier "machite".
+# Error: COMP96_0064: spi_interface.vhd : (26, 17): Unknown type.
+# Error: COMP96_0078: spi_interface.vhd : (39, 9): Unknown identifier "clock".
+# Error: COMP96_0133: spi_interface.vhd : (39, 9): Cannot find object declaration.
+# Error: COMP96_0124: spi_interface.vhd : (39, 14): Illegal prefix for attribute 'event.
+# Error: COMP96_0078: spi_interface.vhd : (39, 25): Unknown identifier "clock".
+# Error: COMP96_0133: spi_interface.vhd : (39, 25): Cannot find object declaration.
+# Error: COMP96_0077: spi_interface.vhd : (39, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0123: spi_interface.vhd : (40, 4): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0143: spi_interface.vhd : (40, 4): Object "cpu_couter" cannot be written
+# Error: COMP96_0071: spi_interface.vhd : (40, 31): Operator "+" is not defined for such operands.
+# Error: COMP96_0077: spi_interface.vhd : (40, 18): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0584: spi_interface.vhd : (41, 9): Cannot determine the type of the case expression. Enumeration type, integer type, or one-dimensional array of characters expected.
+# Compile failure 13 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
+# Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
 # Compile Entity "spi_master"
 # Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0018: spi_interface.vhd : (19, 1): Identifier expected.
-# Error: COMP96_0015: spi_interface.vhd : (19, 1): ')' expected.
-# Error: COMP96_0015: spi_interface.vhd : (19, 1): ';' expected.
-# Error: COMP96_0019: spi_interface.vhd : (19, 5): Keyword 'end' expected.
-# Error: COMP96_0019: spi_interface.vhd : (44, 5): Keyword 'if' expected.
-# Error: COMP96_0358: spi_interface.vhd : (44, 5): Statement is not labeled.
-# Error: COMP96_0019: spi_interface.vhd : (44, 10): Keyword 'end' expected.
+# Error: COMP96_0078: spi_interface.vhd : (39, 9): Unknown identifier "clock".
+# Error: COMP96_0133: spi_interface.vhd : (39, 9): Cannot find object declaration.
+# Error: COMP96_0124: spi_interface.vhd : (39, 14): Illegal prefix for attribute 'event.
+# Error: COMP96_0078: spi_interface.vhd : (39, 25): Unknown identifier "clock".
+# Error: COMP96_0133: spi_interface.vhd : (39, 25): Cannot find object declaration.
+# Error: COMP96_0077: spi_interface.vhd : (39, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0123: spi_interface.vhd : (40, 4): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0143: spi_interface.vhd : (40, 4): Object "cpu_couter" cannot be written
+# Error: COMP96_0071: spi_interface.vhd : (40, 31): Operator "+" is not defined for such operands.
+# Error: COMP96_0077: spi_interface.vhd : (40, 18): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0071: spi_interface.vhd : (43, 22): Operator ">" is not defined for such operands.
+# Error: COMP96_0077: spi_interface.vhd : (43, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: spi_interface.vhd : (45, 7): Unknown identifier "cpu_counter".
+# Error: COMP96_0133: spi_interface.vhd : (45, 7): Cannot find object declaration.
+# Error: COMP96_0301: spi_interface.vhd : (41, 4): The choice 'others' must be present when all alternatives are not covered.
+# Compile failure 15 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# Compile Entity "spi_master"
+# Compile Architecture "logic" of Entity "spi_master"
+# Error: COMP96_0123: spi_interface.vhd : (40, 4): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0143: spi_interface.vhd : (40, 4): Object "cpu_couter" cannot be written
+# Error: COMP96_0071: spi_interface.vhd : (40, 31): Operator "+" is not defined for such operands.
+# Error: COMP96_0077: spi_interface.vhd : (40, 18): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0071: spi_interface.vhd : (43, 22): Operator ">" is not defined for such operands.
+# Error: COMP96_0077: spi_interface.vhd : (43, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: spi_interface.vhd : (45, 7): Unknown identifier "cpu_counter".
+# Error: COMP96_0133: spi_interface.vhd : (45, 7): Cannot find object declaration.
+# Error: COMP96_0301: spi_interface.vhd : (41, 4): The choice 'others' must be present when all alternatives are not covered.
+# Compile failure 9 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# Compile Entity "spi_master"
+# Compile Architecture "logic" of Entity "spi_master"
+# Error: COMP96_0651: spi_interface.vhd : (40, 31): Operator "+" returning 'STD_ULOGIC' is not defined for such operands.
+# Error: COMP96_0077: spi_interface.vhd : (40, 18): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0071: spi_interface.vhd : (43, 22): Operator ">" is not defined for such operands.
+# Error: COMP96_0077: spi_interface.vhd : (43, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: spi_interface.vhd : (45, 7): Unknown identifier "cpu_counter".
+# Error: COMP96_0133: spi_interface.vhd : (45, 7): Cannot find object declaration.
+# Error: COMP96_0301: spi_interface.vhd : (41, 4): The choice 'others' must be present when all alternatives are not covered.
 # Compile failure 7 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -reorder -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
-# Compile with File Reorder...
+acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
+# Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
 # Compile Entity "spi_master"
 # Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0019: spi_interface.vhd : (44, 5): Keyword 'if' expected.
-# Error: COMP96_0358: spi_interface.vhd : (44, 5): Statement is not labeled.
-# Error: COMP96_0019: spi_interface.vhd : (44, 10): Keyword 'end' expected.
+# Error: COMP96_0651: spi_interface.vhd : (40, 31): Operator "+" returning 'STD_ULOGIC' is not defined for such operands.
+# Error: COMP96_0077: spi_interface.vhd : (40, 18): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0071: spi_interface.vhd : (43, 22): Operator ">" is not defined for such operands.
+# Error: COMP96_0077: spi_interface.vhd : (43, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: spi_interface.vhd : (45, 7): Unknown identifier "cpu_counter".
+# Error: COMP96_0133: spi_interface.vhd : (45, 7): Cannot find object declaration.
+# Error: COMP96_0301: spi_interface.vhd : (41, 4): The choice 'others' must be present when all alternatives are not covered.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# Compile Entity "spi_master"
+# Compile Architecture "logic" of Entity "spi_master"
+# Error: COMP96_0123: spi_interface.vhd : (40, 4): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0143: spi_interface.vhd : (40, 4): Object "cpu_couter" cannot be written
+# Error: COMP96_0071: spi_interface.vhd : (40, 31): Operator "+" is not defined for such operands.
+# Error: COMP96_0077: spi_interface.vhd : (40, 18): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0071: spi_interface.vhd : (43, 22): Operator ">" is not defined for such operands.
+# Error: COMP96_0077: spi_interface.vhd : (43, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: spi_interface.vhd : (45, 7): Unknown identifier "cpu_counter".
+# Error: COMP96_0133: spi_interface.vhd : (45, 7): Cannot find object declaration.
+# Error: COMP96_0301: spi_interface.vhd : (41, 4): The choice 'others' must be present when all alternatives are not covered.
+# Compile failure 9 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# Compile Entity "spi_master"
+# Compile Architecture "logic" of Entity "spi_master"
+# Error: COMP96_0123: spi_interface.vhd : (40, 4): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0143: spi_interface.vhd : (40, 4): Object "cpu_couter" cannot be written
+# Error: COMP96_0078: spi_interface.vhd : (45, 7): Unknown identifier "cpu_counter".
+# Error: COMP96_0133: spi_interface.vhd : (45, 7): Cannot find object declaration.
+# Error: COMP96_0301: spi_interface.vhd : (41, 4): The choice 'others' must be present when all alternatives are not covered.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# Compile Entity "spi_master"
+# Compile Architecture "logic" of Entity "spi_master"
+# Error: COMP96_0078: spi_interface.vhd : (45, 7): Unknown identifier "cpu_counter".
+# Error: COMP96_0133: spi_interface.vhd : (45, 7): Cannot find object declaration.
+# Error: COMP96_0301: spi_interface.vhd : (41, 4): The choice 'others' must be present when all alternatives are not covered.
 # Compile failure 3 Errors 0 Warnings  Analysis time :  15.0 [ms]
 acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
 # Compile Entity "spi_master"
 # Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0019: spi_interface.vhd : (41, 6): Keyword 'if' expected.
-# Error: COMP96_0015: spi_interface.vhd : (41, 6): ';' expected.
-# Error: COMP96_0019: spi_interface.vhd : (45, 5): Keyword 'process' expected.
-# Error: COMP96_0019: spi_interface.vhd : (45, 10): Keyword 'end' expected.
-# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# Error: COMP96_0078: spi_interface.vhd : (40, 4): Unknown identifier "cpu_couter".
+# Error: COMP96_0133: spi_interface.vhd : (40, 4): Cannot find object declaration.
+# Error: COMP96_0078: spi_interface.vhd : (43, 9): Unknown identifier "cpu_couter".
+# Error: COMP96_0133: spi_interface.vhd : (43, 9): Cannot find object declaration.
+# Error: COMP96_0077: spi_interface.vhd : (43, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0301: spi_interface.vhd : (41, 4): The choice 'others' must be present when all alternatives are not covered.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  16.0 [ms]
 acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
 # Compile Entity "spi_master"
 # Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0019: spi_interface.vhd : (41, 6): Keyword 'if' expected.
-# Error: COMP96_0015: spi_interface.vhd : (41, 6): ';' expected.
-# Error: COMP96_0019: spi_interface.vhd : (45, 5): Keyword 'process' expected.
-# Error: COMP96_0019: spi_interface.vhd : (45, 10): Keyword 'end' expected.
-# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
-# Compile Entity "spi_master"
-# Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0019: spi_interface.vhd : (37, 3): Keyword 'end' expected.
-# Error: COMP96_0015: spi_interface.vhd : (40, 7): ';' expected.
-# Error: COMP96_0016: spi_interface.vhd : (40, 9): Design unit declaration expected.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
-# Compile Entity "spi_master"
-# Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0019: spi_interface.vhd : (41, 6): Keyword 'if' expected.
-# Error: COMP96_0015: spi_interface.vhd : (41, 6): ';' expected.
-# Error: COMP96_0019: spi_interface.vhd : (45, 5): Keyword 'process' expected.
-# Error: COMP96_0019: spi_interface.vhd : (45, 10): Keyword 'end' expected.
-# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
-# Compile Entity "spi_master"
-# Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0019: spi_interface.vhd : (42, 6): Keyword 'if' expected.
-# Error: COMP96_0015: spi_interface.vhd : (42, 6): ';' expected.
-# Error: COMP96_0019: spi_interface.vhd : (46, 5): Keyword 'process' expected.
-# Error: COMP96_0019: spi_interface.vhd : (46, 10): Keyword 'end' expected.
-# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
-# Compile Entity "spi_master"
-# Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0078: spi_interface.vhd : (26, 16): Unknown identifier "STD_LOGIG_VECTOR".
-# Error: COMP96_0064: spi_interface.vhd : (26, 16): Unknown type.
-# Error: COMP96_0077: spi_interface.vhd : (38, 12): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0078: spi_interface.vhd : (40, 4): Unknown identifier "cpu_couter".
+# Error: COMP96_0133: spi_interface.vhd : (40, 4): Cannot find object declaration.
+# Error: COMP96_0301: spi_interface.vhd : (41, 4): The choice 'others' must be present when all alternatives are not covered.
 # Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
 acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
 # Compile Entity "spi_master"
 # Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0015: spi_interface.vhd : (38, 9): ';' expected.
-# Error: COMP96_0019: spi_interface.vhd : (38, 9): Keyword 'end' expected.
-# Error: COMP96_0019: spi_interface.vhd : (39, 7): Keyword 'process' expected.
-# Error: COMP96_0015: spi_interface.vhd : (41, 6): ';' expected.
-# Error: COMP96_0016: spi_interface.vhd : (41, 13): Design unit declaration expected.
-# Compile failure 5 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# Error: COMP96_0301: spi_interface.vhd : (41, 4): The choice 'others' must be present when all alternatives are not covered.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
 acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
-# Compile Entity "spi_master"
-# Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0015: spi_interface.vhd : (38, 9): ';' expected.
-# Error: COMP96_0019: spi_interface.vhd : (38, 9): Keyword 'end' expected.
-# Error: COMP96_0019: spi_interface.vhd : (39, 7): Keyword 'process' expected.
-# Error: COMP96_0015: spi_interface.vhd : (41, 6): ';' expected.
-# Error: COMP96_0016: spi_interface.vhd : (41, 13): Design unit declaration expected.
-# Compile failure 5 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
 # Compile Entity "spi_master"
 # Compile Architecture "logic" of Entity "spi_master"
 # Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
 acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
 # Compile Entity "spi_master"
 # Compile Architecture "logic" of Entity "spi_master"
-# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# Error: COMP96_0015: spi_interface.vhd : (28, 65): '=>' expected.
+# Error: COMP96_0331: spi_interface.vhd : (28, 65): Syntax error in expression.
+# Error: COMP96_0049: spi_interface.vhd : (56, 18): Syntax error in expression.
+# Error: COMP96_0019: spi_interface.vhd : (56, 25): Keyword 'then' expected.
+# Error: COMP96_0019: spi_interface.vhd : (59, 8): Keyword 'if' expected.
+# Error: COMP96_0015: spi_interface.vhd : (59, 8): ';' expected.
+# Error: COMP96_0029: spi_interface.vhd : (59, 12): Expression expected.
+# Error: COMP96_0019: spi_interface.vhd : (60, 7): Keyword 'case' expected.
+# Error: COMP96_0036: spi_interface.vhd : (60, 9): Boolean expression expected.
+# Error: COMP96_0019: spi_interface.vhd : (62, 6): Keyword 'if' expected.
+# Error: COMP96_0015: spi_interface.vhd : (62, 6): ';' expected.
+# Error: COMP96_0019: spi_interface.vhd : (68, 5): Keyword 'process' expected.
+# Error: COMP96_0019: spi_interface.vhd : (68, 10): Keyword 'end' expected.
+# Compile failure 13 Errors 0 Warnings  Analysis time :  16.0 [ms]
 acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
 # Compile Entity "spi_master"
 # Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0015: spi_interface.vhd : (38, 9): ';' expected.
-# Error: COMP96_0019: spi_interface.vhd : (38, 9): Keyword 'end' expected.
-# Error: COMP96_0019: spi_interface.vhd : (39, 3): Keyword 'end' expected.
-# Error: COMP96_0015: spi_interface.vhd : (42, 6): ';' expected.
-# Error: COMP96_0016: spi_interface.vhd : (42, 13): Design unit declaration expected.
-# Compile failure 5 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# Error: COMP96_0015: spi_interface.vhd : (28, 65): '=>' expected.
+# Error: COMP96_0331: spi_interface.vhd : (28, 65): Syntax error in expression.
+# Error: COMP96_0019: spi_interface.vhd : (59, 8): Keyword 'if' expected.
+# Error: COMP96_0015: spi_interface.vhd : (59, 8): ';' expected.
+# Error: COMP96_0029: spi_interface.vhd : (59, 12): Expression expected.
+# Error: COMP96_0019: spi_interface.vhd : (62, 6): Keyword 'case' expected.
+# Error: COMP96_0019: spi_interface.vhd : (68, 5): Keyword 'if' expected.
+# Error: COMP96_0358: spi_interface.vhd : (68, 5): Statement is not labeled.
+# Error: COMP96_0019: spi_interface.vhd : (68, 10): Keyword 'end' expected.
+# Compile failure 9 Errors 0 Warnings  Analysis time :  0.0 [ms]
 acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
 # Compile Entity "spi_master"
 # Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0015: spi_interface.vhd : (38, 9): ';' expected.
-# Error: COMP96_0019: spi_interface.vhd : (38, 9): Keyword 'end' expected.
-# Error: COMP96_0019: spi_interface.vhd : (39, 3): Keyword 'end' expected.
-# Error: COMP96_0015: spi_interface.vhd : (42, 6): ';' expected.
-# Error: COMP96_0016: spi_interface.vhd : (42, 13): Design unit declaration expected.
-# Compile failure 5 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
-# Compile Entity "spi_master"
-# Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0077: spi_interface.vhd : (38, 12): Undefined type of expression. Expected type 'STD_ULOGIC'.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
-# Compile Entity "spi_master"
-# Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0110: spi_interface.vhd : (38, 4): Signal cannot be the target of a variable assignment.
-# Error: COMP96_0077: spi_interface.vhd : (38, 12): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0015: spi_interface.vhd : (28, 65): '=>' expected.
+# Error: COMP96_0331: spi_interface.vhd : (28, 65): Syntax error in expression.
 # Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
 acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
 # Compile Entity "spi_master"
 # Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0077: spi_interface.vhd : (38, 16): Undefined type of expression. Expected type 'STD_ULOGIC'.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
-# Compile Entity "spi_master"
-# Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0077: spi_interface.vhd : (38, 16): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0015: spi_interface.vhd : (28, 54): ';' expected.
 # Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
 acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
-# Compile Entity "spi_master"
-# Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0015: spi_interface.vhd : (38, 13): ';' expected.
-# Error: COMP96_0019: spi_interface.vhd : (38, 13): Keyword 'end' expected.
-# Error: COMP96_0019: spi_interface.vhd : (39, 3): Keyword 'end' expected.
-# Error: COMP96_0015: spi_interface.vhd : (42, 6): ';' expected.
-# Error: COMP96_0016: spi_interface.vhd : (42, 13): Design unit declaration expected.
-# Compile failure 5 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
-# Compile Entity "spi_master"
-# Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0015: spi_interface.vhd : (39, 6): ';' expected.
-# Error: COMP96_0019: spi_interface.vhd : (39, 6): Keyword 'end' expected.
-# Error: COMP96_0019: spi_interface.vhd : (40, 3): Keyword 'end' expected.
-# Error: COMP96_0015: spi_interface.vhd : (43, 6): ';' expected.
-# Error: COMP96_0016: spi_interface.vhd : (43, 13): Design unit declaration expected.
-# Compile failure 5 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
-# Compile Entity "spi_master"
-# Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0015: spi_interface.vhd : (39, 6): ';' expected.
-# Error: COMP96_0019: spi_interface.vhd : (39, 6): Keyword 'end' expected.
-# Error: COMP96_0019: spi_interface.vhd : (40, 3): Keyword 'end' expected.
-# Error: COMP96_0015: spi_interface.vhd : (43, 6): ';' expected.
-# Error: COMP96_0016: spi_interface.vhd : (43, 13): Design unit declaration expected.
-# Compile failure 5 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
 # Compile Entity "spi_master"
 # Compile Architecture "logic" of Entity "spi_master"
 # Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
 acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
 # Compile Entity "spi_master"
 # Compile Architecture "logic" of Entity "spi_master"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Error: COMP96_0015: spi_interface.vhd : (59, 25): ';' expected.
+# Error: COMP96_0019: spi_interface.vhd : (59, 25): Keyword 'end' expected.
+# Error: COMP96_0019: spi_interface.vhd : (63, 8): Keyword 'then' expected.
+# Error: COMP96_0019: spi_interface.vhd : (64, 10): Keyword 'case' expected.
+# Error: COMP96_0036: spi_interface.vhd : (64, 12): Boolean expression expected.
+# Error: COMP96_0019: spi_interface.vhd : (65, 8): Keyword 'if' expected.
+# Error: COMP96_0015: spi_interface.vhd : (65, 8): ';' expected.
+# Error: COMP96_0029: spi_interface.vhd : (65, 12): Expression expected.
+# Error: COMP96_0019: spi_interface.vhd : (66, 7): Keyword 'process' expected.
+# Error: COMP96_0015: spi_interface.vhd : (68, 6): ';' expected.
+# Error: COMP96_0016: spi_interface.vhd : (68, 13): Design unit declaration expected.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  31.0 [ms]
 acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
 # Compile Entity "spi_master"
 # Compile Architecture "logic" of Entity "spi_master"
-# Error: COMP96_0110: spi_interface.vhd : (38, 4): Signal cannot be the target of a variable assignment.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# Error: COMP96_0015: spi_interface.vhd : (59, 25): ';' expected.
+# Error: COMP96_0019: spi_interface.vhd : (59, 25): Keyword 'end' expected.
+# Error: COMP96_0019: spi_interface.vhd : (63, 8): Keyword 'then' expected.
+# Error: COMP96_0019: spi_interface.vhd : (64, 11): Keyword 'case' expected.
+# Error: COMP96_0036: spi_interface.vhd : (64, 13): Boolean expression expected.
+# Error: COMP96_0019: spi_interface.vhd : (66, 8): Keyword 'process' expected.
+# Error: COMP96_0015: spi_interface.vhd : (67, 7): ';' expected.
+# Error: COMP96_0016: spi_interface.vhd : (67, 9): Design unit declaration expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  0.0 [ms]
 acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# Compile Entity "spi_master"
+# Compile Architecture "logic" of Entity "spi_master"
+# Error: COMP96_0019: spi_interface.vhd : (63, 8): Keyword 'then' expected.
+# Error: COMP96_0019: spi_interface.vhd : (65, 10): Keyword 'case' expected.
+# Error: COMP96_0036: spi_interface.vhd : (65, 12): Boolean expression expected.
+# Error: COMP96_0019: spi_interface.vhd : (66, 8): Keyword 'if' expected.
+# Error: COMP96_0015: spi_interface.vhd : (66, 8): ';' expected.
+# Error: COMP96_0029: spi_interface.vhd : (66, 12): Expression expected.
+# Error: COMP96_0019: spi_interface.vhd : (67, 7): Keyword 'process' expected.
+# Error: COMP96_0015: spi_interface.vhd : (69, 6): ';' expected.
+# Error: COMP96_0016: spi_interface.vhd : (69, 13): Design unit declaration expected.
+# Compile failure 9 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# Compile Entity "spi_master"
+# Compile Architecture "logic" of Entity "spi_master"
+# Error: COMP96_0098: spi_interface.vhd : (56, 9): 'BOOLEAN' type expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# Compile Entity "spi_master"
+# Compile Architecture "logic" of Entity "spi_master"
+# Error: ELAB1_0008: spi_interface.vhd : (60, 19): Cannot read output : "SCK".
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# Compile Entity "spi_master"
+# Compile Architecture "logic" of Entity "spi_master"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
 # Compile Entity "spi_master"
 # Compile Architecture "logic" of Entity "spi_master"
 # Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work AD7691_VHDL -2002  $dsn/src/spi_interface.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+# Compile Entity "spi_master"
+# Compile Architecture "logic" of Entity "spi_master"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# Design Status: 'AD7691_VHDL' status has been successfully generated to 'C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\DESIGN_STATUS\2017_01_19_12_37\'.
+# The existing file 'C:\My_Designs\MKFP\projekt\AD7691_VHDL.zip' has been renamed to 'C:\My_Designs\MKFP\projekt\AD7691_VHDL0001.zip'.
+# Archive: Workspace 'AD7691_VHDL' has been successfully archived to C:\My_Designs\MKFP\projekt.

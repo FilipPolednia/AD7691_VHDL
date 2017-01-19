@@ -1,25 +1,25 @@
-timestamp=1484220014560
+timestamp=1484825823277
 
 [spi_master]
-A/logic=21|./../src/spi_interface.vhd|24|1*7952
+A/logic=21|./../src/spi_interface.vhd|25|1*21742
 BinI32/logic=3*0
-I=0*734
-I/logic=0*4166
-M=11|0|vb4|1484219273616|./../src/spi_interface.vhd|0*255*0x82071bf3ef7c5eece0dea5a5bb3a8d68d4f29f26|0*646*0x5eebbfaf24833dd780412b1f91e05209
-M/logic=21|0|vb4|1484220014485|./../src/spi_interface.vhd|0*3692*0xef0e66a5e7cbeabd7cb12ade89414ec216a2a1fa|0*4069*0x856b180bf611ec746a6bfcb1befebd18
+I=0*8081
+I/logic=0*12219
+M=11|0|vb4|1484825410559|./../src/spi_interface.vhd|0*7519*0x7bd32fee5d0ef8210d89f81e52404a706f2244d0|0*7993*0x5eebbfaf24833dd780412b1f91e05209
+M/logic=21|0|vb4|1484825823216|./../src/spi_interface.vhd|0*11074*0xc13bc2773524cdf8d50140ff49e1a6a0fb72e960|0*12122*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/spi_interface.vhd|6
 Version=9.3.2744.sp1.09.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/logic=9.3.2744.sp1.09.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [~A]
-ModifyID=29
+ModifyID=67
 Version=73
 
 [~MFT]
-0=30|0AD7691_VHDL.mgf|4166|2720
-1=8|1AD7691_VHDL.mgf|7952|7952
+0=76|0AD7691_VHDL.mgf|12219|9930
+1=18|1AD7691_VHDL.mgf|21742|21742
 3=0|3AD7691_VHDL.mgf|0|0
 
 [~U]
-spi_master=11|0*0|
+spi_master=11|0*7175|
 

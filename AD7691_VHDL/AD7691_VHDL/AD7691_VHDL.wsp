@@ -3,10 +3,13 @@ AD7691_VHDL=1
 Built-in symbols=0
 SPARTAN6=0
 [COMPILESTATUS|.\src\spi_interface.vhd]
-FileTimeLow=30567624
+FileTimeLow=30569032
 Status=Modified
 [COMPILESTATUS|.\src\clk_prescaler.vhd]
 FileTimeLow=30567624
+Status=Modified
+[COMPILESTATUS|.\src\DESIGN_STATUS\2017_01_19_12_37\synthesis_synthesis.dfml]
+FileTimeLow=30569024
 Status=Modified
 [Gui config]
 RunFor=100 ns
