@@ -10,6 +10,7 @@ entity memory is
     
   	clk : IN STD_LOGIC;		  
   	reset: IN STD_LOGIC;
+	new_data: IN STD_LOGIC;
 	data_in : IN STD_LOGIC_VECTOR(17 downto 0); -- data input
 	data_out : OUT STD_LOGIC_VECTOR(17 downto 0); -- data output
 	ready : OUT STD_LOGIC	  
@@ -39,16 +40,17 @@ begin
 		elsif clk'event and clk = '1' then
 			case state is
 				when collect => 
-					--data <= std_logic_vector(signed(data) + signed(data_in)); 	-- data + data_in;	  
-					data <= data + data_in;
-					--count <= std_logic_vector(unsigned(count) + unsigned(1));		--count++	
-					count := count + 1;
-					ready_sig <= '0';
-					if count = 1023 then	--kiedy zbierze 1024 prołbki	
-						count := 0;	--wyczyĹ›Ä‡ count
-						state <= send;				--przejdĹş do stanu send
+					if new_data = '1' then
+						--data <= std_logic_vector(signed(data) + signed(data_in)); 	-- data + data_in;	  
+						data <= data + data_in;
+						--count <= std_logic_vector(unsigned(count) + unsigned(1));		--count++	
+						count := count + 1;
+						ready_sig <= '0';
+						if count = 1023 then	--kiedy zbierze 1024 prołbki	
+							count := 0;	--wyczyĹ›Ä‡ count
+							state <= send;				--przejdĹş do stanu send
+						end if;
 					end if;
-				
 				when send =>
 					if data(9) = '1' then	--jeżeli 10 bit jest 1 to po dzieleniu dodaj 1 bo zaokrÄ…glenia
 						--data_processed <= (data srl 10) + conv_std_logic_vector(1, 18);
@@ -64,7 +66,8 @@ begin
 		
 	end process; 
 	
-	data_out <= data_processed;				--przypisanie na wyjscie
+	data_out <= data_processed;				--przypisanie na wyjscie			  
+	ready <= ready_sig;
 
 
 end logic;
