@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+--
+-- Title      : List of local and global libraries visible in Library Manager
+-- Active-HDL : 9.3.2744.sp1.09.4995.01 
+-- Workspace  : AD7691_VHDL
+-- Design     : AD7691_VHDL
+-- Author     : student2
+-- Company    : AGH
+-- Date       : 2017-01-26 12:58:59
+--
+-------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Library           | Mode  | Vendor   | Version                                          | Comment
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+aldec             | RO    | ALDEC    | Aldec Active-HDL                                 | VHDL PROCEDURES FOR CALLING ASDB, MATLAB, SIGNAL AGENT TASKS FROM THE VHDL CODE, RANDOM PACKAGE
+exemplar          | RO    | MENTOR   | MENTOR GRAPHICS PRECISION RTL SYNTHESIS 2011a.61 | EXEMPLAR VHDL LIBRARY.
+synopsys          | RO    | No Data  | No Data                                          | Library containing packages with useful functions for std_logic types objects
+std               | RO    | No Data  | No Data                                          | Standard VHDL library
+vtl_dbg           | RO    | No Data  | No Data                                          | No Data
+vl                | RO    | No Data  | No Data                                          | Standard Verilog library
+vital2000         | RO    | No Data  | No Data                                          | Standard IEEE packages library
+vtl               | RO    | No Data  | No Data                                          | No Data
+ieee              | RO    | No Data  | No Data                                          | Standard IEEE packages library
+assertions        | RO    | No Data  | No Data                                          | No Data
+ad7691_vhdl       | RW    | No Data  | No Data                                          | No Data
+osvvm             | RO    | No Data  | No Data                                          | No Data
+ieee_proposed     | RO    | No Data  | No Data                                          | VHDL '93 compatible version of the proposed packages for the IEEE 1076-2008 standard
+synplify          | RO    | SYNOPSYS | SYNOPSYS FPGA PRODUCTS I-2013.09-SP1             | SYNPLIFY VHDL LIBRARY
+simprims_ver      | RO    | XILINX   | XILINX ISE 14.7                                  | SIMPRIM VERILOG LIBRARY
+simprim           | RO    | XILINX   | XILINX ISE 14.7                                  | SIMPRIM VHDL LIBRARY
+uni9000_ver       | RO    | XILINX   | XILINX ISE 14.7                                  | UNISIM VERILOG LIBRARY FOR XC9000 FAMILY
+unimacro_ver      | RO    | XILINX   | XILINX ISE 14.7                                  | UNIMACRO VERILOG LIBRARY
+xilinxcorelib_ver | RO    | XILINX   | XILINX ISE 14.7                                  | XILINXCORELIB VERILOG LIBRARY
+unisims_ver       | RO    | XILINX   | XILINX ISE 14.7                                  | UNISIM VERILOG LIBRARY
+xilinxcorelib     | RO    | XILINX   | XILINX ISE 14.7                                  | XILINXCORELIB VHDL LIBRARY
+unisim            | RO    | XILINX   | XILINX ISE 14.7                                  | UNISIM VHDL LIBRARY
+cpld_ver          | RO    | XILINX   | XILINX ISE 14.7                                  | CPLD VERILOG LIBRARY
+secureip          | RO    | XILINX   | XILINX ISE 14.7                                  | SECUREIP LIBRARY
+unimacro          | RO    | XILINX   | XILINX ISE 14.7                                  | UNIMACRO VHDL LIBRARY
+cpld              | RO    | XILINX   | XILINX ISE 14.7                                  | CPLD VHDL LIBRARY
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

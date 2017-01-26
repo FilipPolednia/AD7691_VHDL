@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+--
+-- Title      : Design Flow Manager settings and simulation libraries
+-- Active-HDL : 9.3.2744.sp1.09.4995.01 
+-- Workspace  : AD7691_VHDL
+-- Design     : AD7691_VHDL
+-- Author     : student2
+-- Company    : AGH
+-- Date       : 2017-01-19 11:22:25
+--
+-------------------------------------------------------------------------------
+1. Design Flow Manager Settings
+---------------------------------------------------------------------------------------------------
+Language           | VHDL
+Flow Type          | HDL
+C Synthesis        | <none>  
+HDL Synthesis      | Xilinx ISE/WebPack 14.6/14.7 XST VHDL/Verilog C:\Xilinx\14.7\ISE_DS\ISE\bin\nt
+Physical Synthesis | <none>  
+Implementation     | Xilinx ISE/WebPack 14.6/14.7 C:\Xilinx\14.7\ISE_DS\ISE\bin\nt
+Family Name        | Xilinx14x SPARTAN6
+---------------------------------------------------------------------------------------------------
+
+2. Working Library: AD7691_VHDL
+No Simulation Report.
+
+

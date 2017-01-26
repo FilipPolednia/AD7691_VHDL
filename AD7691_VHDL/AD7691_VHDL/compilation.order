@@ -1,2 +1,7 @@
 .\src\spi_interface.vhd
 .\src\clk_prescaler.vhd
+.\src\memory.vhd
+.\src\top.bde
+.\src\decoder.vhd
+.\src\bin2bcd.vhd
+.\src\hex2led.vhd

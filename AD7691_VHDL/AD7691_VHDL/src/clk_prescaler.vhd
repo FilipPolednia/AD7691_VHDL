@@ -30,13 +30,13 @@ end Prescaler;
 
 architecture Prescaler of Prescaler is
 
-signal DIVIDER: std_logic_vector(27 downto 0);	-- internal divider register 
-constant divide_factor: integer := 1000000;			-- divide factor user constant
+signal DIVIDER: std_logic_vector(5 downto 0);	-- internal divider register 
+constant divide_factor: integer := 50;			-- divide factor user constant
 												-- remember to adjust lenght of DIVIDER register when divide_factor is being changed
 
 begin 
 	process (CLK, CLR)
-	begin
+	begin															  											   
 		if CLR = '1' then
 			DIVIDER <= (others => '0');
 		elsif CLK'event and CLK = '1' then
