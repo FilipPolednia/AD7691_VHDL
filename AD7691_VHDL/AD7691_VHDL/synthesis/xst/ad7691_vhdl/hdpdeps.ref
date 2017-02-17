@@ -1,0 +1,15 @@
+V3 6
+FL C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/clk_prescaler.vhd 2017/01/12.12:36:22 P.20131013
+EN AD7691_VHDL/Prescaler 1484822266 \
+      FL C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/clk_prescaler.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR AD7691_VHDL/Prescaler/Prescaler 1484822267 \
+      FL C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/clk_prescaler.vhd \
+      EN AD7691_VHDL/Prescaler 1484822266
+EN AD7691_VHDL/spi_master 0 \
+      FL C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR AD7691_VHDL/spi_master/logic 0 \
+      FL C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd \
+      EN AD7691_VHDL/spi_master 0

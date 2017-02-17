@@ -1,3 +1,21 @@
-29
+733
+~E 1 "./../src/hex2led.vhd" 7 bcd2led
+~A 1 "./../src/hex2led.vhd" 15 Behavioral
+~E 1 "./../src/bin2bcd.vhd" 6 bin2bcd_12bit
+~A 1 "./../src/bin2bcd.vhd" 15 Behavioral
+~E 1 "./../src/decoder.vhd" 6 decoder
+~A 1 "./../src/decoder.vhd" 22 logic
+~E 1 "./../src/memory.vhd" 7 memory
+~A 1 "./../src/memory.vhd" 23 logic
+~E 1 "./../src/clk_prescaler.vhd" 20 Prescaler
+~A 1 "./../src/clk_prescaler.vhd" 31 Prescaler
 ~E 1 "./../src/spi_interface.vhd" 6 spi_master
-~A 1 "./../src/spi_interface.vhd" 24 logic
+~A 1 "./../src/spi_interface.vhd" 26 logic
+~E 1 "./../src/TestBench/spi_master_TB.vhd" 8 spi_master_tb
+~A 1 "./../src/TestBench/spi_master_TB.vhd" 14 TB_ARCHITECTURE
+~C 1 "./../src/TestBench/spi_master_TB.vhd" 122 testbench_for_spi_master
+~C 1 "./../src/TestBench/top_TB.vhd" 129 testbench_for_top
+~E 1 "./../compile/top.vhd" 28 top
+~A 1 "./../compile/top.vhd" 46 top
+~E 1 "./../src/TestBench/top_TB.vhd" 9 top_tb
+~A 1 "./../src/TestBench/top_TB.vhd" 12 TB_ARCHITECTURE

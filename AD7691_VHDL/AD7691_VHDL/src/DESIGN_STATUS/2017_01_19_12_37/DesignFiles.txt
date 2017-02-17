@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+--
+-- Title      : List of design files displayed in Active-HDL Design Browser
+-- Active-HDL : 9.3.2744.sp1.09.4995.01 
+-- Workspace  : AD7691_VHDL
+-- Design     : AD7691_VHDL
+-- Author     : student2
+-- Company    : AGH
+-- Date       : 2017-01-19 12:37:42
+--
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------
+File              | Comp. | File Status | Design Folder | File Path
+                  | Order |             |               |
+----------------------------------------------------------------------------------------------------------------------------
+spi_interface.vhd |       | Modified    |               | C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\spi_interface.vhd
+clk_prescaler.vhd |       | Modified    |               | C:\My_Designs\MKFP\projekt\AD7691_VHDL\AD7691_VHDL\src\clk_prescaler.vhd
+----------------------------------------------------------------------------------------------------------------------------
+

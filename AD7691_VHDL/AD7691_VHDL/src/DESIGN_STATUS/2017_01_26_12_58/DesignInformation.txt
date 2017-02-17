@@ -1,0 +1,54 @@
+-------------------------------------------------------------------------------
+--
+-- Title      : Design Flow Manager settings and simulation libraries
+-- Active-HDL : 9.3.2744.sp1.09.4995.01 
+-- Workspace  : AD7691_VHDL
+-- Design     : AD7691_VHDL
+-- Author     : student2
+-- Company    : AGH
+-- Date       : 2017-01-26 12:58:59
+--
+-------------------------------------------------------------------------------
+1. Design Flow Manager Settings
+---------------------------------------------------------------------------------------------------
+Language           | VHDL
+Flow Type          | HDL
+C Synthesis        | <none>  
+HDL Synthesis      | Xilinx ISE/WebPack 14.6/14.7 XST VHDL/Verilog C:\Xilinx\14.7\ISE_DS\ISE\bin\nt
+Physical Synthesis | <none>  
+Implementation     | Xilinx ISE/WebPack 14.6/14.7 C:\Xilinx\14.7\ISE_DS\ISE\bin\nt
+Family Name        | Xilinx14x SPARTAN6
+---------------------------------------------------------------------------------------------------
+
+2. Working Library: AD7691_VHDL
+Active-HDL 9.3.2744.sp1.09.4995  2017-01-26 11:39:57
+
+Elaboration top modules:
+Architecture                  logic(spi_master)
+
+
+-------------------------------------------------------------------------------------------------------
+Entity     | Architecture | Library     | Info | Compiler Version                | Compilation Options
+-------------------------------------------------------------------------------------------------------
+spi_master | logic        | ad7691_vhdl |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+VHDL Package              | Library     | Info | Compiler Version                | Compilation Options
+-------------------------------------------------------------------------------------------------------
+standard                  | std         |      |                                 | 
+TEXTIO                    | std         |      | 9.3.2744.sp1.09.4995  (Windows) |  -2008
+std_logic_1164            | ieee        |      | 9.3.2744.sp1.09.4995  (Windows) |  -2008
+std_logic_arith           | ieee        |      | 9.3.2744.sp1.09.4995  (Windows) | 
+STD_LOGIC_UNSIGNED        | ieee        |      | 9.3.2744.sp1.09.4995  (Windows) | 
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+Library                   | Comment
+-------------------------------------------------------------------------------------------------------
+ad7691_vhdl               | None
+ieee                      | Standard IEEE packages library
+std                       | Standard VHDL library
+-------------------------------------------------------------------------------------------------------
+
+

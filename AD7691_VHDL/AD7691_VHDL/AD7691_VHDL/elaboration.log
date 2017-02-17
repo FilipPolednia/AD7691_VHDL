@@ -1,0 +1,50 @@
+Active-HDL 9.3.2744.sp1.09.4995  2017-02-17 12:17:22
+
+Elaboration top modules:
+VHDL Configuration            testbench_for_top
+
+
+-------------------------------------------------------------------------------------------------------------
+Entity        | Architecture    | Library     | Info | Compiler Version                | Compilation Options
+-------------------------------------------------------------------------------------------------------------
+top_tb        | tb_architecture | ad7691_vhdl |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+top           | top             | ad7691_vhdl |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+spi_master    | logic           | ad7691_vhdl |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+Prescaler     | prescaler       | ad7691_vhdl |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+memory        | logic           | ad7691_vhdl |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+decoder       | logic           | ad7691_vhdl |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+bin2bcd_12bit | behavioral      | ad7691_vhdl |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+bcd2led       | behavioral      | ad7691_vhdl |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+-------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------
+VHDL Configuration              | Library     | Info | Compiler Version                | Compilation Options
+-------------------------------------------------------------------------------------------------------------
+testbench_for_top               | ad7691_vhdl |      | 9.3.2744.sp1.09.4995  (Windows) | -O3
+-------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------
+VHDL Package                    | Library     | Info | Compiler Version                | Compilation Options
+-------------------------------------------------------------------------------------------------------------
+standard                        | std         |      |                                 | 
+TEXTIO                          | std         |      | 9.3.2744.sp1.09.4995  (Windows) |  -2008
+std_logic_1164                  | ieee        |      | 9.3.2744.sp1.09.4995  (Windows) |  -2008
+std_logic_arith                 | ieee        |      | 9.3.2744.sp1.09.4995  (Windows) | 
+STD_LOGIC_UNSIGNED              | ieee        |      | 9.3.2744.sp1.09.4995  (Windows) | 
+NUMERIC_STD                     | ieee        |      | 9.3.2744.sp1.09.4995  (Windows) |  -2008
+STD_LOGIC_SIGNED                | ieee        |      | 9.3.2744.sp1.09.4995  (Windows) | 
+-------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------
+Library                         | Comment
+-------------------------------------------------------------------------------------------------------------
+ad7691_vhdl                     | None
+ieee                            | Standard IEEE packages library
+std                             | Standard VHDL library
+-------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +w_nets testbench_for_top
+
+
+The performance of simulation is reduced. Version EDU Edition

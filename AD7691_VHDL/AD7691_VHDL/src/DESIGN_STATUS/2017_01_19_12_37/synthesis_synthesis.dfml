@@ -1,0 +1,41 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.49 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/clk_prescaler.vhd" in Library AD7691_VHDL.
+Entity <Prescaler> compiled.
+Entity <Prescaler> (Architecture <Prescaler>) compiled.
+Compiling vhdl file "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" in Library AD7691_VHDL.
+Entity <spi_master> compiled.
+ERROR:HDLParsers:3313 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 26. Undefined symbol 'machite'.  Should it be: machine?
+ERROR:HDLParsers:1209 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 26. machite: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 38. Undefined symbol 'state'.
+ERROR:HDLParsers:3313 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 39. Undefined symbol 'clock'.  Should it be: block?
+ERROR:HDLParsers:1209 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 39. clock: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 40. + can not have such operands in this context.
+ERROR:HDLParsers:164 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 41. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:3313 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 44. Undefined symbol 'cpu_counter'.  Should it be: cpu_couter?
+ERROR:HDLParsers:1209 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 45. state: Undefined symbol (last report in this block)
+ERROR:HDLParsers:164 - "C:/My_Designs/MKFP/projekt/AD7691_VHDL/AD7691_VHDL/src/spi_interface.vhd" Line 49. parse error, unexpected CASE, expecting PROCESS
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.78 secs
+ 
+--> 
+
+Total memory usage is 181872 kilobytes
+
+Number of errors   :   10 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

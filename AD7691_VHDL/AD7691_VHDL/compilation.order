@@ -1,2 +1,9 @@
 .\src\spi_interface.vhd
 .\src\clk_prescaler.vhd
+.\src\memory.vhd
+.\src\top.bde
+.\src\decoder.vhd
+.\src\bin2bcd.vhd
+.\src\hex2led.vhd
+.\src\TestBench\spi_master_TB.vhd
+.\src\TestBench\top_TB.vhd
